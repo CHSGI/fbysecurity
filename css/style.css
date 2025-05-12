@@ -173,6 +173,18 @@ a:focus {
   margin-left: 20%;
 }
 
+@media (max-width: 700px) {
+  .slider_section .slider_box .slider-detail {
+    margin-left: 5%;
+  }
+  .slider_section .slider_box .fixed_company-detail{
+    right: 5%;
+  }
+  .slider_section .slider_box .slider-detail .slider_detail-heading h1{
+    font-size: 2rem;
+  }
+}
+
 .slider_section .slider_box .slider-detail .slider_detail-heading h2 {
   font-weight: 100;
   text-transform: uppercase;
